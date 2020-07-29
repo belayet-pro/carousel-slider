@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    box-sizing: border-box;
+}
+h2, h3 {
+    font-family: 'Arvo', serif;
+    font-size: 700;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+#testimonial {
+    background: hsl(351, 93%, 54%);
+    text-align: center;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.section-padding {
+    padding: 60px 0px;
+}
+.img-thum {
+    margin: 15px;
+    text-align: center;
+}
+.img-thum img {
+    width: inherit !important;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+h2 a {
+    color: #222;
+}
+h3 a {
+    color: #333;
+}
+.testimonial-item {
+    background: lavender;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+p {
+    color: #333;
+}
+
+.star-icons span {
+    color: #f63854
+}
+
+#testimonial .owl-theme .owl-dot  span {
+    color: #fff;
+    background: #fff;
+    border: 2px solid #fff;
+}
+#testimonial .owl-theme .owl-dots .owl-dot .active span {
+    background: #f63854;
+
+}
